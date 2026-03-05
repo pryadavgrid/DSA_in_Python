@@ -1,8 +1,9 @@
-Here is your corrected and well-structured **README.md** file in simple English for better understanding.
-
----
-
 # 📘 Time Complexity & Asymptotic Analysis (Simple Guide)
+
+* Time Complexity tells us how fast or slow an algorithm runs when the input size increases.
+* It measures efficiency of an algorithm
+* It does not measure real time (seconds)
+* It measures growth of operations
 
 ## 📌 What is `n`?
 
