@@ -73,11 +73,6 @@ class DoublyLinkList:
         current_node.prev_node = temp
         current_node.next_node = temp2
 
-        # current_node.next_node = temp.next_node
-        # current_node.prev_node = temp
-        # temp.next_node = current_node
-        # temp.prev_node = temp
-
 
 
         
@@ -93,3 +88,9 @@ root_node.add_node_specific_pos()
 
 root_node.print_back_to_front_doublylinked()
 # root_node.print_front_to_back_doublylinked()
+
+
+
+#   ------- ------      
+#   | Data | Add | --> 
+#   ------- ------
