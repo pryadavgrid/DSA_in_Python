@@ -154,16 +154,3 @@ self.my_stack.pop()
 
 👉 This makes stack operations faster (O(1))
 
----
-
-## ✅ Conclusion
-
-This is a basic and good implementation of a stack in Python. With small improvements, it can be more efficient and production-ready.
-
----
-
-If you want, I can also:
-
-* Convert this into a project file structure
-* Add unit tests
-* Improve code with best practices
