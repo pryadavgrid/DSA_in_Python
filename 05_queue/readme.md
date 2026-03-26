@@ -1,7 +1,3 @@
-Here is your **README.md file** in simple English with explanation, diagrams, and key points 👇
-
----
-
 # 📘 Data Structures: Queue, Deque, Circular Queue
 
 This project contains implementation of:
