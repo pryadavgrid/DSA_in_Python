@@ -1,4 +1,4 @@
-class circular_queue:
+class CircularQueue:
 
     def __init__(self, size):
         self.size = size
@@ -35,41 +35,41 @@ class circular_queue:
             print(i)
 
 
-my_circular_queue = circular_queue(5)
+my_CircularQueue = CircularQueue(5)
 
-my_circular_queue.add_element(10)
-my_circular_queue.add_element(20)
-my_circular_queue.add_element(30)
-my_circular_queue.add_element(40)
-my_circular_queue.add_element(50)
+my_CircularQueue.add_element(10)
+my_CircularQueue.add_element(20)
+my_CircularQueue.add_element(30)
+my_CircularQueue.add_element(40)
+my_CircularQueue.add_element(50)
 
-my_circular_queue.remove_element()
-my_circular_queue.remove_element()
-my_circular_queue.remove_element()
-my_circular_queue.remove_element()
-my_circular_queue.remove_element()
+my_CircularQueue.remove_element()
+my_CircularQueue.remove_element()
+my_CircularQueue.remove_element()
+my_CircularQueue.remove_element()
+my_CircularQueue.remove_element()
 
-my_circular_queue.add_element(10)
-my_circular_queue.add_element(20)
-my_circular_queue.add_element(30)
-my_circular_queue.add_element(40)
-my_circular_queue.add_element(50)
-
-
-my_circular_queue.remove_element()
-my_circular_queue.add_element(60)
-my_circular_queue.remove_element()
-my_circular_queue.add_element(70)
-my_circular_queue.remove_element()
-my_circular_queue.add_element(80)
-my_circular_queue.remove_element()
-my_circular_queue.add_element(90)
-my_circular_queue.remove_element()
-my_circular_queue.add_element(100)
-my_circular_queue.remove_element()
+my_CircularQueue.add_element(10)
+my_CircularQueue.add_element(20)
+my_CircularQueue.add_element(30)
+my_CircularQueue.add_element(40)
+my_CircularQueue.add_element(50)
 
 
+my_CircularQueue.remove_element()
+my_CircularQueue.add_element(60)
+my_CircularQueue.remove_element()
+my_CircularQueue.add_element(70)
+my_CircularQueue.remove_element()
+my_CircularQueue.add_element(80)
+my_CircularQueue.remove_element()
+my_CircularQueue.add_element(90)
+my_CircularQueue.remove_element()
+my_CircularQueue.add_element(100)
+my_CircularQueue.remove_element()
 
 
 
-my_circular_queue.dispaly_items()
+
+
+my_CircularQueue.dispaly_items()

@@ -1,4 +1,4 @@
-class Dqueue:
+class Deque:
 
     def __init__(self):
         self.items = []
@@ -35,7 +35,7 @@ class Dqueue:
 
 
 
-my_dequeue = Dqueue()
+my_dequeue = Deque()
 
 my_dequeue.insert_element_at_rear(20)
 my_dequeue.insert_element_at_rear(30)
